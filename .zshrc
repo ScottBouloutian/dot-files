@@ -21,4 +21,4 @@ plugins=(git flutter)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-GPG_TTY=$(tty)
+export GPG_TTY=$(tty)
