@@ -1,3 +1,4 @@
+#!/bin/zsh
 cp ~/dot-files/.zshrc ~
-source ~/.zshrc
+. ~/.zshrc
 
