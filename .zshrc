@@ -3,6 +3,7 @@ export ZSH="/home/cirrus/.oh-my-zsh"
 
 # Set name of the theme to load
 ZSH_THEME="powerlevel9k/powerlevel9k"
+POWERLEVEL9K_MODE='nerdfont-complete'
 
 # Automatically update without prompting.
 DISABLE_UPDATE_PROMPT="true"
@@ -21,4 +22,3 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 GPG_TTY=$(tty)
-POWERLEVEL9K_MODE='nerdfont-complete'
